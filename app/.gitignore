@@ -1,0 +1,30 @@
+# Go
+/resolved
+
+# Android / Gradle
+.gradle/
+build/
+app/build/
+app/.gradle/
+app/build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+
+# Go mobile bind output (generated AARs/JARs)
+app/libs/resolved.aar
+app/libs/resolved-sources.jar
+
+# Nix
+result
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.direnv
